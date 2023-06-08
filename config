@@ -1,0 +1,6 @@
+Host gitlab.com PubkeyAcceptedKeyTypes=+ssh-rsa
+	HostName gitlab.com
+	User git
+	IdentityFile ~/.ssh/gitlab_rsa
+	StrictHostKeyChecking no
+
